@@ -1,3 +1,22 @@
+$ourbrown: #7a6656;
+$darkerbrown: #6a5656;
+
+.navbar-nav > li > a, .navbar-inverse .navbar-brand {
+    background-color: $ourbrown;
+}
+
+.navbar-inverse {
+	background-color: $ourbrown;
+	border-radius: 0px;
+	border-width: 0px;
+
+}
+
+#active {
+	background-color: $darkerbrown;
+}
+
+
 ul {
 	list-style: none;
 }

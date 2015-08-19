@@ -1,3 +1,14 @@
+.navbar-nav > li > a, .navbar-inverse .navbar-brand {
+  background-color: #7a6656; }
+
+.navbar-inverse {
+  background-color: #7a6656;
+  border-radius: 0px;
+  border-width: 0px; }
+
+#active {
+  background-color: #6a5656; }
+
 ul {
   list-style: none; }
 
