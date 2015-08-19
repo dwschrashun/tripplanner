@@ -32,11 +32,11 @@
 				</li>
 			</ul>
 			<div class="day-number">
-				<h2>Day 2</h2>
+				<span class="day-header">Day 2</span><button type="button" class="btn btn-xs btn-delete btn-circle">x</button>
 			</div>
-			<div class="my-itinerary">
+			<div class="my-itinerary panel panel-default">
 				<ul class="list-group">
-					<li class="day-list">
+					<li class="day-list panel-heading">
 						<ul>
 							<li><button type="button" class="btn btn-xs btn-day">1</button></li>
 							<li><button type="button" class="btn btn-xs btn-day">2</button></li>
@@ -44,35 +44,37 @@
 							<li><button type="button" class="btn btn-xs btn-day">+</button></li>
 						</ul>
 					</li>
-					<li class="list-group-item">
-						<label for="my-hotel">My Hotel</label>
-						<ul class="sublist">
-							<li>Andaz Wall Street</li>
-							<li><button type="button" class="btn btn-xs btn-delete">x</button></li>
-						</ul>
-					</li>
-					<li class="list-group-item">
-						<label for="my-restaurants">My Restaurants</label>
-						<ul class="sublist">
-							<li>The Capital Grille</li>
-							<li><button type="button" class="btn btn-xs btn-delete">x</button></li>
-						</ul>
-						<ul class="sublist">
-							<li>Bouley</li>
-							<li><button type="button" class="btn btn-xs btn-delete">x</button></li>
-						</ul>
-					</li>
-					<li class="list-group-item">
-						<label for="my-activities">My Activities</label>
-						<ul class="sublist">
-							<li>Mahayana Temple Buddhist Association</li>
-							<li><button type="button" class="btn btn-xs btn-delete">x</button></li>
-						</ul>
-						<ul class="sublist">
-							<li>South Street Seaport</li>
-							<li><button type="button" class="btn btn-xs btn-delete">x</button></li>
-						</ul>
-					</li>
+					<div class="panel-body">
+						<li class="list-group-item">
+							<label for="my-hotel">My Hotel</label>
+							<ul class="sublist">
+								<li>Andaz Wall Street</li>
+								<li><button type="button" class="btn btn-xs btn-delete btn-circle">x</button></li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<label for="my-restaurants">My Restaurants</label>
+							<ul class="sublist">
+								<li>The Capital Grille</li>
+								<li><button type="button" class="btn btn-xs btn-delete btn-circle">x</button></li>
+							</ul>
+							<ul class="sublist">
+								<li>Bouley</li>
+								<li><button type="button" class="btn btn-xs btn-delete btn-circle">x</button></li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<label for="my-activities">My Activities</label>
+							<ul class="sublist">
+								<li>Mahayana Temple Buddhist Association</li>
+								<li><button type="button" class="btn btn-xs btn-delete btn-circle">x</button></li>
+							</ul>
+							<ul class="sublist">
+								<li>South Street Seaport</li>
+								<li><button type="button" class="btn btn-xs btn-delete btn-circle">x</button></li>
+							</ul>
+						</li>
+					</div>
 				</ul>
 
 			</div>
