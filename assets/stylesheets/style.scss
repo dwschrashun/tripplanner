@@ -1,7 +1,95 @@
+ul {
+	list-style: none;
+}
+
 .col-lg-9 {
 	background-color: pink;
 }
 
 .col-lg-3 {
-	background-color: green;
+	background-color: #b6b6b6;
 }
+
+.schema-dropdowns {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #ccc;
+	color: #999;
+	li {
+		border: none;
+		label {
+			display: block;
+		}
+	}
+}
+
+label {
+	color: #999;
+}
+
+.day-number {
+
+	width: 100%;
+	text-align: center;
+	h2 {
+		border-color: black;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 5px;
+	}
+}
+
+.btn-day {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #bdf7ff;
+	border-radius: 30px;
+	color: #7a6656;
+	background-color: #7a6656;
+	color: #bdf7ff;
+	&:hover {
+		background-color: #bdf7ff; 
+		color: #7a6656;
+	}
+}
+
+.btn-delete {
+	border-radius: 30px;
+	color: white;
+	background-color: #df2c2c;
+}
+
+.day-list {
+
+	background-color: #7a6656;
+	li {
+		display: inline-block;
+	}
+	ul {
+		padding: 10px 15px;
+	}
+}
+
+ul.sublist {
+	padding: 0;
+	font-size: 0.9em;
+	li {
+		padding: 0;
+		display: inline;
+	}
+}
+
+.my-itinerary {
+	border-radius: 15px;
+	background-color: white;
+}
+
+.list-group {
+	border: none;
+}
+
+.list-group-item {
+	background-color: inherit;
+	border: none;
+}
+
