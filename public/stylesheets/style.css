@@ -116,7 +116,8 @@ ul.sublist {
   font-size: 0.9em; }
   ul.sublist li {
     padding: 0;
-    display: inline; }
+    display: inline;
+    max-width: calc(100% - 20px); }
 
 .my-itinerary {
   /*border-radius: 15px;*/

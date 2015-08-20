@@ -146,6 +146,7 @@ ul.sublist {
 	li {
 		padding: 0;
 		display: inline;
+		max-width: calc(100% - 20px);
 	}
 }
 
