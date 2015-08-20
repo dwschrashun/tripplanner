@@ -1,6 +1,21 @@
 $ourbrown: #7a6656;
 $darkerbrown: #6a5656;
 
+.navbar {
+	padding: 0;
+	margin: 0;
+}
+.navbar-fixed-top {
+	clear: both;
+}
+.container {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+}
+body {
+	padding-top: 50px;
+}
 .navbar-nav > li > a, .navbar-inverse .navbar-brand {
     background-color: $ourbrown;
 }
@@ -19,7 +34,7 @@ $darkerbrown: #6a5656;
 
 #map-canvas {
 	width:100%;
-	height: 600px;
+	height:100vh;
 }
 
 ul {
@@ -126,7 +141,7 @@ label {
 }
 
 ul.sublist {
-	padding: 0;
+	padding: 3px 0;
 	font-size: 0.9em;
 	li {
 		padding: 0;
@@ -147,5 +162,13 @@ ul.sublist {
 .list-group-item {
 	background-color: inherit;
 	border: none;
+}
+
+.rightbar {
+	height: 100vh;
+}
+
+select {
+	width: calc(100% - 20px);
 }
 

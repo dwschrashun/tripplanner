@@ -11,9 +11,15 @@ module.exports.index = function(req, res) {
 
 	Promise.all([Hotel.find().exec(), Activity.find().exec(), Restaurant.find().exec()]).
 		then(function (resultArr) {
-			//console.dir(resultArr);
-			res.render("index");
+			console.dir(resultArr);
+			var hotels = resultArr[0];
+			var activities = resultArr[1];
+			var restaurants = resultArr[2];
+			res.render("index", {hotels: hotels, activities: activities, restaurants: restaurants});
+
 		});
+
+
 	// Hotel.find().exec().then(function(result){
 	// 	res.render("index");
 	// 	});
